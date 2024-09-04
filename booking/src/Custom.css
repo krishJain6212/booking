@@ -1,0 +1,279 @@
+:root
+{
+    border-width:                1px;
+
+}
+.Search-City{
+    position: relative;
+}
+.Res{
+position: absolute;
+top: 50px;
+left: -150px;
+z-index: 2;
+width: 40rem;
+height: 30vh;
+overflow-y: scroll;
+scrollbar-width : none;
+}
+.Web-padding
+{
+    padding: 0 10rem;
+}
+.Header-parent{
+    position: relative;
+}
+.Header
+{
+    background-color: #003b95;
+}
+.Bars
+{
+    display: none;
+}
+.Menu-list
+{
+    list-style: none;
+}
+.Navbar
+{
+    background-color: #003b95;
+}
+.Nav-list
+{
+    list-style: none;
+}
+.add{
+    display: none;
+}
+.Nav-list li:hover
+{
+    background-color: rgba(0,108,228,0.24);
+}
+.Banner
+{
+    background-color: #003b95;
+}
+.Heading-1
+{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+}
+.Banner p
+{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.Form{
+    width: 79%;
+    position: absolute;
+    top: 88%;
+    left: 11%;
+}
+.tr
+{
+    background-color: #ffb700;
+}
+.td
+{
+    background-color: #fff;
+    padding: 10px 15px;
+    margin: 5px 5px;
+}
+.td input
+{
+    border: none;
+    
+}
+.td input:focus
+{
+    outline: none;
+    border: none;
+}
+.td input::placeholder
+{
+    font-weight: bold;
+}
+.Check
+{
+    background: none;
+    border: none;
+}
+.td-2 button
+{
+    padding: 10px 15px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.Dest img{
+    object-fit: cover;
+}
+.Dest-img{
+    position: relative;
+}
+.Dest-img img:hover{
+  filter: brightness(0.6);
+} 
+.Dest h3{
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    z-index: 1;
+    font-weight: bold;
+    color: #fff;
+}
+.Trip-ul
+{
+    list-style: none;
+}
+.Trip-ul li:hover
+{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+.Row-info
+{
+    box-shadow: 0px 13px 29px 0px rgba(0,0,0,0.1);
+    padding: 0;
+}
+.Rate{
+    background-color: #00224f;
+    padding: 0 0.3rem;
+}
+.Disc 
+{
+    color: #006ce4;
+    text-decoration: none;
+}
+.Picture
+{
+    position: relative;
+    overflow: hidden;
+}
+.Picture img{
+    transition: all ease 0.5s;
+}
+.Picture img:hover
+{
+    transform: scale(1.1);
+}
+
+.Picture-title
+{
+    position: absolute;
+    bottom: 1rem;
+}
+.Banner-link{
+    padding: 16px;
+}
+.Banner-content{
+    position: relative;
+    overflow: hidden;
+    padding-left: 150px;
+}
+.Obj1{
+    position: absolute;
+    bottom: 40px;
+    left: -20px;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #ffb700;
+}
+.Obj2{
+    display: flex;
+    margin: -100px 0;
+    min-width: 400px;
+    padding-left: 10%;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #006ce4;
+    position: relative;
+    margin-right: 100px;
+}
+.Info-3{
+    padding: 0;
+    width: 70%;
+    text-align: left !important;
+}
+.Info-4{
+    margin: 16px 64px 0 0;
+    min-width: 50%;
+    max-width: 70%;
+    background-color: #fff;
+    color: #006ce4;
+    padding-left: 45px;
+    text-decoration: none;
+}
+.Footer-form
+{
+    background-color: #00224f;
+    padding: 5rem 10rem;
+}
+.inp-area
+{
+    width: 40%;
+}
+.Second-section
+{
+    background-color: #003b95;
+}
+.List{
+    border-bottom: 1px solid #fff;
+}
+.List-btn{
+    background-color: #003b95;
+    border: 1px solid #fff;
+}
+.Link-list
+{
+    list-style: none;
+    padding: 0 10rem;
+}
+.Link-list li:hover
+{
+    cursor: pointer;
+}
+.Last-section
+{
+    padding: 0 10rem;
+}
+.col ul
+{
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 13px;
+}
+.Rights p
+{
+    font-size: 12px;
+}
+@media (max-width: 1024px) {
+    .Bars{
+        display: block;
+    }
+    .Right-info{
+        display: none;
+    }
+    .dis{
+        display: none;
+    }
+    .add{
+        display: block;
+    }
+}
+
+@media (max-width: 768px){
+    .Web-padding{
+        padding: 0 2rem;
+    }
+    .dis2{
+        display: none;
+    }
+}
